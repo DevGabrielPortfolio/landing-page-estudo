@@ -1,0 +1,8 @@
+ler o documento com as exigencias da aplicação 
+
+baixar as imagens necessárias 
+
+fazer as importações necessárias  (fonts e arquivos externos)
+
+iniciar a programação do header
+

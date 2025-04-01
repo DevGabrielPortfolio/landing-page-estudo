@@ -1,0 +1,29 @@
+:root {
+    /* Cores principais */
+    --color-yellow: #a88f00;
+    --color-turquoise: #6c04e2;
+    --color-coral: #c50303;
+    --color-aqua: #98FF98;
+
+    /* Cores neutras */
+    --color-white: #FFFFFF;
+    --color-gray-light: #E5E5E5;
+    --color-gray-dark: #525252;
+    --color-black: #000000;
+
+    /* Gradientes */
+    --gradient-primary: linear-gradient(135deg, var(--color-black), rgba(0,0,0,0.8));
+    --gradient-banner: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4));
+    --gradient-card: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.4), transparent);
+
+    /* Sombras */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+    /* Efeitos */
+    --transition-default: all 0.3s ease;
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 16px;
+}

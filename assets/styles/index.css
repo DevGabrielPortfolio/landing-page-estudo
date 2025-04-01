@@ -1,0 +1,122 @@
+.header{
+    background: var(--color-turquoise);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header > a{
+    color: var(--color-white);
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+    color: var(--color-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-main__banner{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+
+.superior-banner{
+    position: absolute;
+    top: 300px;
+    left: 45%;
+    width: 245px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    background: var(--gradient-banner);
+    color: var(--color-white);
+    border-radius: var(--border-radius-lg);
+}
+
+.inferior-banner{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    background: var(--gradient-banner);
+    color: var(--color-white);
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    width: 430px;
+    border-radius: var(--border-radius-lg);
+}
+
+.container-main__banner > .banner > img{
+    width: 100%;
+    height: 900px;
+    margin-bottom: 100px;
+}
+
+.destinos-populares{
+    text-align: center;
+    font-size: 18px;
+    color: var(--color-coral);
+}
+
+
+
+
+
+
+
+.container-main__destinos{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-main__destinos > div{
+    flex: 1 1 380px;
+    margin: 10px;
+    box-shadow: var(--shadow-lg);
+    border-radius: var(--border-radius-lg);
+}
+
+.container-main__destinos > div > h3{
+    color: var(--color-turquoise);
+    padding-left: 10px;
+}
+
+.container-main__destinos > div > p{
+    padding-left: 10px;
+}
+
+.container-main__destinos > div > figure > img{
+    border-radius: var(--border-radius-lg);
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 26px;
+    background-color: var(--color-aqua);
+}

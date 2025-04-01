@@ -1,0 +1,54 @@
+/* Reset global: Remove margens e paddings padrão e ajusta o box-sizing */
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+    box-sizing: border-box; /* Faz com que largura e altura incluam padding e borda */
+}
+
+/* Define a base da fonte para facilitar cálculos com rem */
+html {
+    font-size: 62.5%; /* 1rem passa a ser 10px (padrão é 16px) */
+}
+
+/* Estilização do corpo do site */
+body {
+    font-size: 1.6rem; /* Define tamanho da fonte como 16px */
+    line-height: 1.6; /* Melhora espaçamento entre linhas para leitura confortável */
+    -webkit-font-smoothing: antialiased; /* Suaviza fontes no Chrome e Safari */
+    -moz-osx-font-smoothing: grayscale; /* Suaviza fontes no Firefox */
+}
+
+/* Imagens responsivas para evitar que fiquem maiores que o container */
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o container */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços extras abaixo da imagem */
+}
+
+/* Estilização base dos botões */
+button {
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    border: none; /* Remove borda padrão */
+    background: none; /* Remove background padrão */
+}
+
+/* Remove marcadores das listas */
+ul, ol {
+    list-style: none; /* Remove os bullets das listas */
+}
+
+/* Remove sublinhado e mantém a cor do link igual ao texto */
+a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: inherit; /* Faz o link herdar a cor do texto pai */
+}
+
+/* Remove negrito padrão dos títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Deixa os títulos com peso de fonte normal */
+}
+
+/* Padroniza a fonte em elementos interativos */
+input, button, textarea, select {
+    font: inherit; /* Faz com que esses elementos usem a mesma fonte do body */
+}
