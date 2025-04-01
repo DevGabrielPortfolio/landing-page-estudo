@@ -22,10 +22,14 @@
 .menu li a{
     display: block;
     padding: 10px;
-    color: var(--color-white);
+    color: var(--color-yellow);
+    font-family: "Roboto", sans-serif;
+    transition: var(--transition-default);
 }
 
-
+.menu > li > a:hover{
+    color: var(--color-white);
+}
 
 
 
@@ -39,14 +43,14 @@
 
 .container-main__banner{
     width: 100%;
-    height: 10%;
+    height:100%;
     position: relative;
 }
 
 .superior-banner{
     position: absolute;
     top: 300px;
-    left: 45%;
+    left: 25%;
     width: 245px;
     height: 50px;
     text-align: center;
@@ -54,12 +58,13 @@
     background: var(--gradient-banner);
     color: var(--color-white);
     border-radius: var(--border-radius-lg);
+    font-family: "Roboto", sans-serif;
 }
 
 .inferior-banner{
     position: absolute;
-    top: 80%;
-    left: 45%;
+    top: 70%;
+    left: 15%;
     background: var(--gradient-banner);
     color: var(--color-white);
     height: 50px;
@@ -67,18 +72,21 @@
     padding-top: 10px;
     width: 430px;
     border-radius: var(--border-radius-lg);
+    font-family: "Roboto", sans-serif;
 }
 
 .container-main__banner > .banner > img{
     width: 100%;
     height: 900px;
     margin-bottom: 100px;
+    object-fit: cover;
 }
 
 .destinos-populares{
     text-align: center;
     font-size: 18px;
     color: var(--color-coral);
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -94,16 +102,43 @@
     margin: 0 auto;
 }
 
+.container-main__destinos > div:nth-child(1):hover{
+    transform: translateY(-5px);
+}
+
+.container-main__destinos > div:nth-child(2):hover{
+    transform: translateY(-5px);
+}
+
+.container-main__destinos > div:nth-child(3):hover{
+    transform: translateY(-5px);
+}
+
+.container-main__destinos > div:nth-child(4):hover{
+    transform: translateY(-5px);
+}
+
+.container-main__destinos > div:nth-child(5):hover{
+    transform: translateY(-5px);
+}
+
+.container-main__destinos > div:nth-child(6):hover{
+    transform: translateY(-5px);
+}
+
+
 .container-main__destinos > div{
     flex: 1 1 380px;
     margin: 10px;
     box-shadow: var(--shadow-lg);
     border-radius: var(--border-radius-lg);
+    transition: var(--transition-default);
 }
 
 .container-main__destinos > div > h3{
     color: var(--color-turquoise);
     padding-left: 10px;
+    font-family: "Roboto", sans-serif;
 }
 
 .container-main__destinos > div > p{
